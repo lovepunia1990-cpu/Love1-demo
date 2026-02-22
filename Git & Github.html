@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Git & Github.</title>
+</head>
+<body>
+    <!-- Git -->
+    <p>Git is a version Control System which means it's a tool which can be integrated with our system itself or our code editor to track any or all changed made to our code with proper timelines and also who made those changes can be tracked as well and to do so we have to sync git with our system.</p><br>
+    <!-- GitHub -->
+    <p>GitHub is basically a platform for us to upload or track changes or store our codes and also we can see other people's codes as well and the first step to uploading our codes to GitHub is to make a repository on github which is also called "repo" and a repo is basically a folder for our code and every change we make in it will be visible to us.
+        <br>
+    <!-- Clone -->
+    Now if we want to work with our directory here in our vs code then we need to use the "clone" command in our terminal while we are present in the folder of our repository and this is how the command works-- "git clone <link of the repo>"
+    now our terminal is working in the GitDemo folder but to work in the repo folder which is Love1-demo we need to use the command "cd" which stands for "change directory" and directory means a folder.
+    Also while typing commands, using "tab" can help in autocompletion.<br>
+    Now there are two types of files in a directory--- 1. Visible files 2. Non visible sytem files, ofcourse the files of the 2nd category are not visible by default so to see all the files present we need to use the "ls -Force" command.<br>
+    Also all the files being tracked by git or working in sync with git will have a ".git" file in them which is hidden and can be seen with the command i wrote above.
+    </p>
+    <!-- Status -->
+    <p>Now if we make a new file or make any changes in our already present files those changes will not automatically be updated on our GitHub which means our repo on github and our repo on VS code will be different and when the files are not in sync with our GitHub then VS code displays that through certain symbols in front of our files like in this image.<br>
+    <img src="C:\Users\lovep\OneDrive\GitDemo\Screenshot 2026-02-17 160337.png" height="140px" width="300px"><br>
+    Here "U" means Untracked means a file is not being tracked by git and is made recently and then we also have "M" which indicates a file is modified and is not ready for commit. The state for being ready for commit is called "staged for commit" and the status of all files can be checked by the "git status" command.</p>
+    <!-- Add and Commit -->
+    <p>
+        Now to add our changes to our repo on our remote system we need to go through a 3-stage process which is-- add, commit and push.
+        All 3 of these processes are commands and adding means adding git to our untracked files, commiting means noting the changes made kind of like taking a screenshot of the changes and then at last we finalise the changes and we push them on our remote repo through the "git push origin main"--now here origin is the name we gave to our original repo that we made and main is the name of the branch in that repo.
+    </p>
+</body>
+</html>
