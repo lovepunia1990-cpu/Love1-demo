@@ -33,7 +33,14 @@
     2.. git branch -M "name"--> Used to rename a branch.
     3.. git checkout "name of the branch you want to navigate to"--> Used to navigate to a different branch.
     4.. git checkout -b "name of the new branch"--> Used to create a new branch and navigate to it at the same time.
-    5.. git branch -d "name of the branch you want to delete"--> Used to delete a branch but you cannot delete the branch you are currently in.   
-    </p> 
+    5.. git branch -d "name of the branch you want to delete"--> Used to delete a branch but you cannot delete the branch you are currently in.       
+    </p>
+    <p>Now there are some even more important commands and things about branches.
+    1.. git diff "branch name you want to compare with"--> Used to compare your current branch with another branch.
+    2.. git merge "name of the branch you want to merge your current branch with"--> Used to merge to branches through terminal.. 
+    Now there are 2 ways of merging branches.. 1st-- through terminal by using "git merge" command and the next is through a PR(Pull Request).
+    (i.) PR--> A PR allows a user to let others see the changes you have made in that branch so that they can make a choice whether they will allow main branch to merge with the other branch that has undergone changes and ofc the branch which has undergone changes is the one that makes that request and the main branch checks the changes and then can accept the PR, but for us to see the changes made in VS code we need to download those changes from GitHub and the command to do that is-->  "git pull origin main" and we have successfully merged our branches. Also merging command creates a commit of the record of merging on GitHub.<br>
+    (ii.) Merge command--> This method is easier because all we need to do is use just one command and that is--> git merge "name of the branch you want to merge".. 
+    </p>
 </body>
 </html>
