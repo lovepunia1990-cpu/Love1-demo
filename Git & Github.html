@@ -47,7 +47,10 @@
     <p>Now there are also methods to revert back changes like reverting a staged task or reverting a commit or multiple commits.
     1. Reverting a Staged change--> Suppose we added a change in git that we did by mistake and now we want to reverse it so for that purpose we have--> "git reset <file name>" or "git reset ."(for multiple files) this command or these commands can reverse added changes to modified stage.<br>
     2. Reverting a commit--> To revert a commit in the same way we need to do the following "git reset HEAD~1" HEAD is the name assigned by git to it's latest commit so we give that name to the commit before the latest one and hence reversing one commit and we can check the history of commits using the "git log" command.
-    To reverse multiple commits we need the hash id of the commit we need to reverse till and we can get that hash id through the "git log" command and then copy the id and use "git reverse <hash id>"
+    To reverse multiple commits we need the hash id of the commit we need to reverse till and we can get that hash id through the "git log" command and then copy the id and use "git reverse <hash id>"..
+    Now if we want to delete the changes upto a commit of our choice and make the document or file up-to-date then we use the command--> "git reset --hard <hash of the commit you want to set HEAD at>".
     </p>
+    <!-- Fork -->
+    <p>Fork-- Fork is a method to clone the code and visibility settings of a repo by creating a rough copy of that repo in our system. It can be used to contribute in Open_Source by using Fork on some repo and making useful changes to it and then generating a pull request through our forked repo to the original repo.</p>
 </body>
 </html>
