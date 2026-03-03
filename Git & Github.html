@@ -43,5 +43,11 @@
     (ii.) Merge command--> This method is easier because all we need to do is use just one command and that is--> git merge "name of the branch you want to merge".. 
     Now you can easily merge with this command but in a case where the changes you made in each branch are on the same line then git gets confused about which changes to implement and gives you some options and this state is called a conflict and ofc in this state you have not successfully merged so even if you do select an option provided by your VS code you will need to add and commit those changes, the method to solve a conflict is basically this--> <br><img src="C:\Users\lovep\OneDrive\GitDemo\Screenshot 2026-03-02 222641.png" height="300px" width="auto"><br> So all we need to do is remove those white lines using backspace button and then we will be out of the state of conflict and we can keep any kind of changes we want and then follow up with add and commit commands to save those changes. 
     </p>
+    <!-- Reverting Changes -->
+    <p>Now there are also methods to revert back changes like reverting a staged task or reverting a commit or multiple commits.
+    1. Reverting a Staged change--> Suppose we added a change in git that we did by mistake and now we want to reverse it so for that purpose we have--> "git reset <file name>" or "git reset ."(for multiple files) this command or these commands can reverse added changes to modified stage.<br>
+    2. Reverting a commit--> To revert a commit in the same way we need to do the following "git reset HEAD~1" HEAD is the name assigned by git to it's latest commit so we give that name to the commit before the latest one and hence reversing one commit and we can check the history of commits using the "git log" command.
+    To reverse multiple commits we need the hash id of the commit we need to reverse till and we can get that hash id through the "git log" command and then copy the id and use "git reverse <hash id>"
+    </p>
 </body>
 </html>
